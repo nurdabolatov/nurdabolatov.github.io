@@ -31,7 +31,6 @@ permalink: /:title
 # github_username:  jekyll
 
 # Build settings
-theme: jekyll-theme-hydeout
 remote_theme: fongandrew/hydeout
 plugins:
   - jekyll-feed

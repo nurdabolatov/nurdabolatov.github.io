@@ -8,3 +8,5 @@ description: >-
 ---
 
 {{ page.description }}
+
+The main character in the blog posts is fictional and incidents in this book are either the product of the author's imagination or used in a fictitious manner unless otherwise stated. Any resemblance to actual persons, living or dead, or actual events is purely coincidental.

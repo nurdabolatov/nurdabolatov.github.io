@@ -22,7 +22,7 @@ title: Nurdaulet Bolatov
 email: nurdabolatov@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my blog! You'll find insights about software development 
-  and other cool things 😉 Don't be shy, drop me a line!
+  and other cool things.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nurdabolatov.com" # the base hostname & protocol for your site, e.g. http://example.com
 paginate: 50

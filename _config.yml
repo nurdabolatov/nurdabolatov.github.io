@@ -30,7 +30,7 @@ paginate: 50
 permalink: /:title
 google_analytics: "G-D64K2B81QS"
 # twitter_username: jekyllrb
-# github_username:  jekyll
+github_username:  nurdabolatov
 
 # Build settings
 remote_theme: fongandrew/hydeout

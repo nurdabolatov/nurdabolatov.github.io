@@ -7,6 +7,14 @@
     </a>
   {% endif %}
 
+  {% if site.email %}
+    <a id="email-link" target="_blank"
+      class="icon" title="Email" aria-label="Email"
+      href="mailto:{{ site.email }}">
+      {% include svg/email.svg %}
+    </a>
+  {% endif %}
+
   <a id="subscribe-link" target="_blank"
     class="icon" title="Subscribe" aria-label="Subscribe"
     href="{{ site.feed.path | default: 'feed.xml' | relative_url }}">

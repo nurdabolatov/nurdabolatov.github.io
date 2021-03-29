@@ -1,9 +1,9 @@
-.home #sidebar {
+#sidebar {
     max-height: 100%;
+}
 
-    .site-title {
-        font-size: 2.25em;
-    }
+.home #sidebar .site-title {
+    font-size: 2.25em;
 }
 
 #sidebar #avatar {
@@ -23,5 +23,9 @@
 
     #sidebar .avatar-subpage {
         display: block;
+    }
+
+    #sidebar .site-title {
+        font-size: 2.25em;
     }
 }

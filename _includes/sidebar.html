@@ -1,5 +1,7 @@
 <div id="sidebar">
     <header>
+      <img id="avatar" {% if page.layout != "index" %}class="avatar-subpage"{% endif %}
+        src="https://avatars.githubusercontent.com/u/12931096?v=4" alt="Avatar" />
       <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
         <a href="{{ "/" | relative_url }}">
           {% unless page.url == "/" %}

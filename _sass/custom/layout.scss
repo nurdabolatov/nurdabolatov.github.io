@@ -5,3 +5,23 @@
         font-size: 2.25em;
     }
 }
+
+#sidebar #avatar {
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+}
+
+#sidebar .avatar-subpage {
+    display: none;
+}
+
+@media (min-width: $large-breakpoint) {
+    #sidebar #avatar {
+        width: 200px;
+    }
+
+    #sidebar .avatar-subpage {
+        display: block;
+    }
+}

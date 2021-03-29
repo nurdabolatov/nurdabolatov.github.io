@@ -35,7 +35,7 @@
   {% endfor %}
 
   {% if tags_page %}
-    <a id="tags-link" target="_blank"
+    <a id="tags-link"
       class="icon{% if page.url == '/tags' %} active{% endif %}"
       title="Tags" aria-label="Tags"
       href="{{ tags_page.url | relative_url }}">
@@ -44,7 +44,7 @@
   {% endif %}
 
   {% if search_page %}
-    <a id="search-link" target="_blank"
+    <a id="search-link"
       class="icon{% if page.url == '/search' %} active{% endif %}"
       title="Search" aria-label="Search"
       href="{{ search_page.url | relative_url }}">

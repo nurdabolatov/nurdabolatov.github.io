@@ -2,7 +2,7 @@
 #mc_embed_signup form {
 	display: block;
 	position: relative;
-	text-align: left;
+	text-align: center;
 	padding: 10px 0 10px 0
 }
 
@@ -79,8 +79,9 @@
 	font-size: 15px;
 	display: block;
 	padding: 0 0.4em;
-	margin: 0 4% 10px 0;
+	margin: 0 auto 10px auto;
 	min-height: 32px;
+	max-width: 280px;
 	width: 100%;
 	min-width: 130px;
 	-webkit-border-radius: 3px;
@@ -90,9 +91,10 @@
 
 #mc_embed_signup input.button {
 	display: block;
+	max-width: 280px;
 	width: 100%;
-	margin: 0 0 10px 0;
-	min-width: 90px;
+	margin: 0 auto 10px auto;
+	min-width: 130px;
 }
 
 #mc_embed_signup div#mce-responses {
@@ -129,6 +131,24 @@
 	float: none;
 	width: auto;
 	margin-left: 1.05em;
-	text-align: left;
+	text-align: center;
 	padding: .5em 0;
+}
+
+@media (min-width: $large-breakpoint) {
+	#mc_embed_signup label.error {
+		text-align: left;
+	}
+
+	#mc_embed_signup form {
+		text-align: left;
+	}
+
+	#mc_embed_signup input.email {
+		margin: 0 0 10px 0;
+	}
+
+	#mc_embed_signup input.button {
+		margin: 0 0 10px 0;
+	}
 }

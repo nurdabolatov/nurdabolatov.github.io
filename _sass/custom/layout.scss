@@ -1,3 +1,7 @@
-#sidebar .site-title {
-    font-size: 2.25em !important;
+.home #sidebar {
+    max-height: 100%;
+
+    .site-title {
+        font-size: 2.25em;
+    }
 }

@@ -1,5 +1,5 @@
 <div class="post-meta">
-    <span class="post-date">{{ include.post.date | date_to_string }} &middot; {% include reading-time.html %}</span>
+    <span class="post-date">{{ include.post.date | date_to_string }} &middot; {% include reading-time.html post=include.post %}</span>
     <span class="post-categories">
       {% for category in include.post.categories %}
         &bull;

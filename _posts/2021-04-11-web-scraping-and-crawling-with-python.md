@@ -54,7 +54,7 @@ with requests.session() as session:
         file.write(response.text)
 ```
 
-However, not all websites rely on cookies and you need to add other data in the web request (eg. request header data). I am rambling.
+However, not all websites rely on cookies and you need to add other data in the web request (eg. request header data). But I digress.
 
 ## BeautifulSoup
 

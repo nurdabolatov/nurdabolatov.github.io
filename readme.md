@@ -1,0 +1,1 @@
+This is the source code of my personal blog. Check out the blog at [nurdabolatov.com](https://nurdabolatov.com)

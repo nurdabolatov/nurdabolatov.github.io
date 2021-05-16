@@ -1,7 +1,26 @@
 .post-feedback {
     margin-top: 40px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-feedback-left, .post-feedback-center, .post-feedback-right {
+    margin-top: 20px;
+}
+
+@media (min-width: 1000px) {
+    .post-feedback {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .post-feedback-left, .post-feedback-center, .post-feedback-right {
+        margin-top: 0px;
+    }
+}
+
+.post-feedback-center {
+    text-align: center;
 }
 
 .post-feedback-left {
@@ -9,6 +28,6 @@
 }
 
 applause-button .count-container {
-    top: 5px !important;
+    top: 6px !important;
     right: -36px;
 }
